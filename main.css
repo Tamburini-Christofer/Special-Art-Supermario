@@ -23,8 +23,8 @@ body{
     grid-template-columns: repeat(32, 1fr);
     grid-template-rows: repeat(32, 1fr);
 
-    height: 320px;
-    width: 320px;  
+    height: 120px;
+    width: 120px;  
 }
 
 .super_mario{
@@ -88,4 +88,7 @@ body{
 /*Nuvola*/
 .white{
     background-color: white;
+}
+.azure{
+    background-color: rgb(43, 140, 211);
 }
