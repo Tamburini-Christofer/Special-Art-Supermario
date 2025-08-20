@@ -43,13 +43,29 @@ body{
 
 .domanda_blocco_1{
     position: absolute;
-     transform: translate(800px, 320px);
+     transform: translate(780px, 320px);
 }
 
 .domanda_blocco_2{
     position: absolute;
      transform: translate(700px, 320px);
 }
+
+.blocco_mattoni{
+    position: absolute;
+    transform: translate(740px, 320px);
+}
+
+.blocco_mattoni_1{
+    position: absolute;
+    transform: translate(660px, 320px);
+}
+
+.blocco_mattoni_2{
+    position: absolute;
+    transform: translate(820px, 320px);
+}
+
 
 .super_mario{
     position: absolute;
