@@ -9,9 +9,19 @@
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
 
-    height: 160px;
-    width: 160px;
-    
+    height: 40px;
+    width: 40px;  
+}
+
+.base_level_up{
+    display: flex;
+    position: fixed;
+    top:87vh;
+}
+.base_level_down{
+    display: flex;
+    position: fixed;
+    top:93.5vh;
 }
 
 /* Colore pixel */
