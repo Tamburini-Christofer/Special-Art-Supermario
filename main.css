@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    position: relative;
+    background-color: #9290ff;
+}
+
 .contenitore{
     display: grid;
     grid-template-columns: repeat(16, 1fr);
@@ -11,6 +16,25 @@
 
     height: 40px;
     width: 40px;  
+}
+
+.contenitore_32{
+    display: grid;
+    grid-template-columns: repeat(32, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+
+    height: 320px;
+    width: 320px;  
+}
+
+.super_mario{
+    position: absolute;
+    transform: translate(100px, 477px);
+}
+
+.nuvola{
+    position: absolute;
+    transform: translate(700px, 200px);
 }
 
 .base_level_up{
@@ -27,8 +51,8 @@
 /* Colore pixel */
 
 .pixel{
-    border: 1px solid black;
-    background-color: white;
+    border: 0.5px solid black;
+    background-color: #9290ff;
 }
 
 /* Colori Mario */
@@ -59,4 +83,9 @@
 }
 .yellow_soft{
     background-color:#fee39c;
+}
+
+/*Nuvola*/
+.white{
+    background-color: white;
 }
