@@ -29,12 +29,27 @@ body{
 
 .super_mario{
     position: absolute;
+    transform: translate(50px, 477px);
+}
+
+.super_luigi{
+    position: absolute;
     transform: translate(100px, 477px);
 }
 
 .nuvola{
     position: absolute;
-    transform: translate(700px, 200px);
+    transform: translate(900px, 150px);
+}
+
+.cespuglio{
+    position: absolute;
+    transform: translate(1100px, 457px);
+}
+
+.cespuglio_big{
+    position: absolute;
+    transform: translate(500px, 457px);
 }
 
 .base_level_up{
@@ -51,7 +66,6 @@ body{
 /* Colore pixel */
 
 .pixel{
-    border: 0.5px solid black;
     background-color: #9290ff;
 }
 
@@ -63,6 +77,25 @@ body{
 .brown{
     background-color:#62473B ;
 }
+.cream{
+    background-color: #E1BF8C;
+}
+.black{
+    background-color:#150E04 ;
+}
+.blue{
+    background-color: #426899;
+}
+.yellow{
+    background-color:#FFC13C ;
+}
+
+/* Colori Luigi */
+
+.super_luigi .red{
+    background-color: #69be2f;
+}
+
 .cream{
     background-color: #E1BF8C;
 }
@@ -91,4 +124,16 @@ body{
 }
 .azure{
     background-color: rgb(43, 140, 211);
+}
+
+/* Colori Cespugli*/
+
+.cespuglio .white,
+.cespuglio_big .white{
+    background-color: #88d800;
+}
+
+.cespuglio .azure,
+.cespuglio_big .azure{
+    background-color: #4fa20a;
 }
