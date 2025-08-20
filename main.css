@@ -51,6 +51,11 @@ body{
      transform: translate(700px, 320px);
 }
 
+.domanda_blocco_3{
+    position: absolute;
+     transform: translate(740px, 200px);
+}
+
 .blocco_mattoni{
     position: absolute;
     transform: translate(740px, 320px);
@@ -66,7 +71,6 @@ body{
     transform: translate(820px, 320px);
 }
 
-
 .super_mario{
     position: absolute;
     transform: translate(50px, 477px);
@@ -77,9 +81,24 @@ body{
     transform: translate(100px, 477px);
 }
 
+.enemy_1{
+    position: absolute;
+    transform: translate(880px, 475px);
+}
+
+.enemy_2{
+    position: absolute;
+    transform: translate(820px, 475px);
+}
+
+.enemy_3{
+    position: absolute;
+    transform: translate(940px, 475px);
+}
+
 .nuvola{
     position: absolute;
-    transform: translate(800px, 100px);
+    transform: translate(900px, 100px);
 }
 
 .cespuglio{
@@ -103,6 +122,7 @@ body{
     top:93.5vh;
 }
 
+/**************************************************************************************/
 /* Colore pixel */
 
 .pixel{
@@ -176,4 +196,18 @@ body{
 .cespuglio .azure,
 .cespuglio_big .azure{
     background-color: #4fa20a;
+}
+
+/* Colori Blocchi Mattoni */
+
+.blocco_mattoni .brown,
+.blocco_mattoni_1 .brown,
+.blocco_mattoni_2 .brown{
+    background-color: #994e00;
+}
+
+.enemy_1 .orange,
+.enemy_2 .orange,
+.enemy_3 .orange{
+    background-color:#954b0c ;
 }
