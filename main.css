@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenitore_mario{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+
+
+    height: 90vh;
+    width: 40vw;
+    background-color: burlywood;
+    margin: 5vh auto;
+}
+
+/* Colore pixel */
+
+.pixel{
+    background-color: white;
+    border: 2px solid black;
+}
+.red{
+    background-color: #BE2E36;
+}
+.brown{
+    background-color:#62473B ;
+}
+.cream{
+    background-color: #E1BF8C;
+}
+.black{
+    background-color:#150E04 ;
+}
+.blue{
+    background-color: #426899;
+}
+.yellow{
+    background-color:#FFC13C ;
+}
