@@ -18,6 +18,15 @@ body{
     width: 40px;  
 }
 
+.contenitore_s{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+
+    height: 320px;
+    width: 320px;  
+}
+
 .contenitore_32{
     display: grid;
     grid-template-columns: repeat(32, 1fr);
@@ -25,6 +34,21 @@ body{
 
     height: 120px;
     width: 120px;  
+}
+
+.domanda_blocco{
+    position: absolute;
+     transform: translate(400px, 320px);
+}
+
+.domanda_blocco_1{
+    position: absolute;
+     transform: translate(800px, 320px);
+}
+
+.domanda_blocco_2{
+    position: absolute;
+     transform: translate(700px, 320px);
 }
 
 .super_mario{
@@ -39,7 +63,7 @@ body{
 
 .nuvola{
     position: absolute;
-    transform: translate(900px, 150px);
+    transform: translate(800px, 100px);
 }
 
 .cespuglio{
