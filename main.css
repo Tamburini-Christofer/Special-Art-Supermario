@@ -29,12 +29,23 @@ body{
     width: 320px;  
 }
 
+
+
 .contenitore_10{
        display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
 
     height: 20px;
+    width: 20px;  
+}
+
+.contenitore_10x16{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+
+    height: 30px;
     width: 20px;  
 }
 
@@ -106,39 +117,78 @@ body{
     position: absolute;
      transform: translate(20vw, 55vh); /*Blocco domanda sinistra*/
 }
-
 .domanda_blocco_1{
     position: absolute;
     transform: translate(52vw, 55vh);
 }
-
 .domanda_blocco_2{
     position: absolute;
      transform: translate(58vw, 55vh);
 }
-
 .domanda_blocco_3{
     position: absolute;
      transform: translate(55vw, 15vw); /*Blocco domanda in alto*/
 }
 
-/*Blocco distruttibile*/
-
-.blocco_mattoni_1{
-    position: absolute;
-    transform: translate(49vw, 55vh);
+.domanda_blocco:hover .pixel,
+.domanda_blocco_1:hover .pixel,
+.domanda_blocco_2:hover .pixel,
+.domanda_blocco_3:hover .pixel
+{
+    cursor: pointer;
+    background-color:#AC4501 ;   
 }
 
+.domanda_blocco:hover .black,
+.domanda_blocco_1:hover .black,
+.domanda_blocco_2:hover .black,
+.domanda_blocco_3:hover .black{
+    cursor: pointer;
+    background-color:black ;   
+}
+
+/*Blocco distruttibile*/
 .blocco_mattoni{
     position: absolute;
     transform: translate(55vw, 55vh);
 }
-
+.blocco_mattoni_1{
+    position: absolute;
+    transform: translate(49vw, 55vh);
+}
 .blocco_mattoni_2{
     position: absolute;
     transform: translate(61vw, 55vh);
 }
 
+.blocco_mattoni:hover{
+    cursor: pointer;
+    transform: translate(55vw, 53vh);
+}
+.blocco_mattoni:hover .money_1 .contenitore_10x16{
+    display: block;
+}
+.blocco_mattoni_1:hover{
+    cursor: pointer;
+    transform: translate(49vw, 53vh);
+}
+.blocco_mattoni_2:hover{
+    cursor: pointer;
+    transform: translate(61vw, 53vh);
+}
+
+/*Monete*/
+
+.money{
+        transform: translate(26vw, 14vh);
+}
+.money_1{
+        transform: translate(50vw, 40vh);
+}
+.money_1 .contenitore_10x16{
+        display: none;
+        width: 10px;
+}
 /*Personaggi*/
 
 .super_mario{
@@ -150,12 +200,28 @@ body{
     position: absolute;
     transform: translate(6vw, 80vh);
 }
+.super_mario .contenitore:hover,
+.super_luigi .contenitore:hover{
+    cursor: pointer;
+    transform: translate(0px, -20px);
+    height: 60px;
+    width: 60px;
+}
 
 /*Nemici*/
 
 .enemy_1{
     position: absolute;
     transform: translate(58vw, 80vh);
+}
+
+.enemy_1 .contenitore:hover,
+.enemy_2 .contenitore:hover,
+.enemy_3 .contenitore:hover
+{
+    cursor: pointer;
+    height: 20px;
+    transform: translate(0px, 20px);
 }
 
 .enemy_2{
@@ -184,7 +250,6 @@ body{
     position: absolute;
     transform: translate(70vw, 20vh);
 }
-
 
 /*Livello basso*/
 
